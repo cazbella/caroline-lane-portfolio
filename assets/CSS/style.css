@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: aliceblue;
 }
 
 header {
@@ -42,8 +43,47 @@ background-color: rgb(146, 42, 130);
 
 .nav-list li a {
   color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
 }
-h1,
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1px auto 4fr;
+  background-color: blueviolet;
+
+}
+
+.grid-item {
+  /* padding: 20px; */
+  text-align: center;
+  position: relative;
+}
+
+#separator  {
+  /* position: relative; */
+  width: 2px;
+  background-color: black;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#content p {
+  padding-left: 20px;
+  align-items: right;
+}
+
+#image img {
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+  align-items: left;
+  display: flex;
+}
+
 h2,
 h3,
 h4,
