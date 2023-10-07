@@ -32,17 +32,15 @@ background-color: rgb(146, 42, 130);
   display: flex;
   align-items: horizontal;
   color: #151313;
+  text-decoration: none;
+  
 }
 
-.nav-list ul {
-  display:flex
+.nav-list li {
+  text-decoration: none;
 }
 
-.nav-list ul li {
-  margin: 0; 
-}
-
-.nav-list ul li a {
+.nav-list li a {
   color: black;
 }
 h1,
