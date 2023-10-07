@@ -16,7 +16,7 @@ header {
 .main-header {
 text-align: center;
 background-color: azure;
-}
+padding: 20px;}
 
 .nav-header
 {
@@ -28,24 +28,21 @@ padding: 15px;
 background-color: rgb(146, 42, 130);
 }
 
-nav {
-  display: block;
+.nav-list {
+  display: flex;
+  align-items: horizontal;
+  color: #151313;
 }
 
-nav ul  {
-    display: block;
-    list-style-type: none;
-    list-style-type: none;
-    padding: 0px;
-
+.nav-list ul {
+  display:flex
 }
 
-nav ul li {
-  margin: 0;  
-  display: inline-block;
+.nav-list ul li {
+  margin: 0; 
 }
 
-nav ul li a {
+.nav-list ul li a {
   color: black;
 }
 h1,
