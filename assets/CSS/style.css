@@ -10,6 +10,14 @@ body {
   background-color: aliceblue;
 }
 
+#page-container {
+  width: 100%;
+  /* align-items: center; */
+  border: 15px solid white;
+  margin 0 auto;
+  padding: 20px; 
+}
+
 header {
   display: block;
 }
@@ -50,10 +58,13 @@ background-color: rgb(146, 42, 130);
 }
 
 .grid-container {
+  background-color: blueviolet;
+  border: white;
+  border-width: 20px;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1px auto 4fr;
-  background-color: blueviolet;
+
 
 }
 
@@ -82,6 +93,10 @@ background-color: rgb(146, 42, 130);
   height: auto;
   align-items: left;
   display: flex;
+}
+
+.section-divider {
+  padding: 20px;
 }
 
 h2,
