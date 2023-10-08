@@ -103,16 +103,11 @@ background-color: rgb(146, 42, 130);
 
 
 #categoryGrid {
-  margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px 330px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "horiseon horiseon"
-  "music concertBand"
-  ;
-  justify-content: space-evenly;
-}
+  grid-template-rows: 400px 400px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+
 
 .categoryGridArea {
   background-position: center;
@@ -122,14 +117,13 @@ background-color: rgb(146, 42, 130);
   cursor: pointer;
   display: grid;
   align-content: end;
-} */
+} 
 
-/* #horiseon {
-  grid-area: horiseon;
-  background-image: url("../images/digital-marketing-meeting.jpg");
+ #horiseon {
+  grid-column: span 2;
 }
 
-#music {
+/* /#music {
   grid-area: music;
   background-image: url("./images/IMG_6315.jpg");
 }
@@ -140,7 +134,7 @@ background-color: rgb(146, 42, 130);
 }
 
 
-
+ */
 
 
 h2,
