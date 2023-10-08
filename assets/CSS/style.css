@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   margin: 0;
@@ -72,6 +72,7 @@ background-color: rgb(146, 42, 130);
   /* padding: 20px; */
   text-align: center;
   position: relative;
+  width: 100%;
 }
 
 #separator  {
@@ -85,6 +86,7 @@ background-color: rgb(146, 42, 130);
 #content p {
   padding-left: 20px;
   align-items: right;
+  font-size: 1.5em;
 }
 
 #image img {
@@ -103,11 +105,11 @@ background-color: rgb(146, 42, 130);
 #categoryGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 300px 300px 330px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "horiseon horiseon horiseon"
-  "music music concertBand"
+  "horiseon horiseon"
+  "music concertBand"
   ;
   justify-content: space-evenly;
 }
@@ -120,10 +122,10 @@ background-color: rgb(146, 42, 130);
   cursor: pointer;
   display: grid;
   align-content: end;
-}
+} */
 
-#horiseon {
-  grid-area: horizeon;
+/* #horiseon {
+  grid-area: horiseon;
   background-image: url("../images/digital-marketing-meeting.jpg");
 }
 
@@ -132,10 +134,12 @@ background-color: rgb(146, 42, 130);
   background-image: url("./images/IMG_6315.jpg");
 }
 
-#horizeon {
+#concert-band {
   grid-area: horizeon;
-  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-image: url ("./images/IMG_1847.jpg"); */
 }
+
+
 
 
 
@@ -156,3 +160,4 @@ p {
     position: static;
     margin: 20px;
   }
+}
