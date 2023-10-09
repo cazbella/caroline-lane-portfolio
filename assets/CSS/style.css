@@ -121,8 +121,10 @@ background-color: rgb(146, 42, 130);
   align-content: end;
 } 
 
+
  #horiseon {
   grid-column: span 2;
+  /* background-image: url("./assets/images/digital-marketing-meeting.jpg"); */
 }
 
 .heading 
