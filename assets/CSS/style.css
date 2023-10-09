@@ -13,7 +13,6 @@ body {
 
 #page-container {
   width: 100%;
-  /* align-items: center; */
   border: 15px solid white;
   margin 0 auto;
   padding: 20px; 
@@ -33,8 +32,6 @@ padding: 20px;}
 display: flex;
 justify-content: center;
 padding: 15px;
-/* flex-direction: row; */
-
 background-color: rgb(146, 42, 130);
 }
 
@@ -65,8 +62,6 @@ background-color: rgb(146, 42, 130);
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1px auto 4fr;
-
-
 }
 
 .grid-item {
@@ -102,13 +97,12 @@ background-color: rgb(146, 42, 130);
   padding: 20px;
 }
 
-
-
 #categoryGrid {
   display: grid;
   grid-template-rows: 400px 400px;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
 
 
 .categoryGridArea {
@@ -124,7 +118,6 @@ background-color: rgb(146, 42, 130);
 
  #horiseon {
   grid-column: span 2;
-  /* background-image: url("./assets/images/digital-marketing-meeting.jpg"); */
 }
 
 .heading 
