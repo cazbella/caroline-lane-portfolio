@@ -23,6 +23,7 @@ You tube videos provided by other students on the project
 MDN docs
 w3 pages
 Images from the previous 'Horiseon' project
+I also had help during a tutor session from Juan Delgado to make the images into web links. 
 
 7. Add a License
 MIT Lisense. Please refer to the repository. 

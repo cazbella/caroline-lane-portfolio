@@ -14,7 +14,7 @@ body {
 #page-container {
   width: 100%;
   border: 15px solid white;
-  margin 0 auto;
+  margin: 0 auto;
   padding: 20px; 
 }
 
@@ -113,7 +113,20 @@ background-color: rgb(146, 42, 130);
   cursor: pointer;
   display: grid;
   align-content: end;
+
+
 } 
+.horiseonArea{
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+}
 
 
  #horiseon {
